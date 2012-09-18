@@ -103,7 +103,7 @@ class IContactsheepDisplaySettings(IBaseSettings):
         default=u"mycustomstyle.css")
 
 
-class ContactsheepDisplayType(BatchingDisplayType):
+class ContactsheepDisplayType(BaseDisplayType):
     name = u"contactsheep"
     schema = IContactsheepDisplaySettings
     description = _(u"label_contactsheep_display_type",
