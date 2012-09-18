@@ -1,0 +1,31 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:browser="http://namespaces.zope.org/browser"
+    xmlns:i18n="http://namespaces.zope.org/i18n"
+    i18n_domain="collective.ptg.contactsheep">
+
+    <i18n:registerTranslations directory="locales" />
+
+    <browser:resourceDirectory
+        name="ptg.contactsheep"
+        directory="resources"
+        />
+
+    <adapter
+        for="collective.plonetruegallery.interfaces.IGallery"
+        provides=".IContactsheepDisplaySettings"
+        factory=".ContactsheepSettings" />
+
+    <browser:page 
+        for="collective.plonetruegallery.interfaces.IGallery"
+        name="galleryview-contactsheep"
+        class=".ContactsheepDisplayType"
+        template="contactsheep.pt"
+        permission="zope2.View" />
+
+    <utility
+        component=".ContactsheepDisplayType"
+        provides="collective.plonetruegallery.interfaces.IDisplayType"
+        name="galleryview-contactsheep" />
+
+</configure>
