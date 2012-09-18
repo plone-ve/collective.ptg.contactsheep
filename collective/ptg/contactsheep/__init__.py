@@ -1,7 +1,6 @@
 from collective.plonetruegallery.utils import createSettingsFactory
 from zope.schema.vocabulary import SimpleVocabulary, SimpleTerm
-from collective.plonetruegallery.browser.views.display import \
-    BatchingDisplayType
+from collective.plonetruegallery.browser.views.display import BaseDisplayType
 from collective.plonetruegallery.interfaces import IBaseSettings
 from zope import schema
 from zope.i18nmessageid import MessageFactory
