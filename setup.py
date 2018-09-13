@@ -5,7 +5,7 @@ version = '1.0.5'
 
 setup(name='collective.ptg.contactsheep',
       version=version,
-      description="contact sheet Gallery Display Type extension for PloneTrueGallery package",
+      description="contact sheep Gallery Display Type extension for PloneTrueGallery package",
       long_description=open("README.rst").read() + "\n" +
                        open(os.path.join("docs", "HISTORY.txt")).read(),
       # Get more strings from
@@ -30,7 +30,7 @@ setup(name='collective.ptg.contactsheep',
         "Topic :: Internet",
         "Topic :: Software Development :: Libraries :: Python Modules",
         ],
-      keywords='web zope plone cms plonetruegallery gallery plone addon contact sheet',
+      keywords='web zope plone cms plonetruegallery gallery plone addon contact sheep',
       author='Nathan Van Gheem',
       author_email='vangheem@gmail.com',
       maintainer='Leonardo Caballero',
