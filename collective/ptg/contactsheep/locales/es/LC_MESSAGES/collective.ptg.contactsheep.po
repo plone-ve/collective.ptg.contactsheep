@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: collective.ptg.contactsheep\n"
 "POT-Creation-Date: 2012-07-10 08:19+0000\n"
-"PO-Revision-Date: 2018-09-08 18:48-0400\n"
+"PO-Revision-Date: 2018-09-14 18:48-0400\n"
 "Last-Translator: Leonardo J. Caballero G. <leonardocaballero@gmail.com>\n"
 "Language-Team: Spanish Team\n"
 "Language: es\n"
@@ -30,7 +30,7 @@ msgstr "Vista de galería"
 #: ./__init__.py:13
 msgid "label_contactsheep_columns"
 msgstr ""
-"Número de imagenes antes de forzar una fila nueva (use un número alto si no "
+"Número de imágenes antes de forzar una fila nueva (use un número alto si no "
 "desea esto)"
 
 #. Default: "Contactsheep"
@@ -80,7 +80,6 @@ msgstr "0.3"
 
 #. Default: "0.4 Medium"
 #: ./__init__.py:52
-#, fuzzy
 msgid "label_contactsheep_overlay_opacity4"
 msgstr "0.4 Medio"
 
@@ -107,7 +106,7 @@ msgstr "0.8 Muy Oscuro"
 #. Default: "0.9 Almost Black"
 #: ./__init__.py:66
 msgid "label_contactsheep_overlay_opacity9"
-msgstr "0.9 Casí Negro"
+msgstr "0.9 Casi Negro"
 
 #. Default: "What stylesheet (css file) to use"
 #: ./__init__.py:75
@@ -151,9 +150,8 @@ msgstr "Usar tamaño de miniatura en vez del Tamaño"
 
 #. Default: "How many pixels to zoom when mouse over"
 #: ./__init__.py:33
-#, fuzzy
 msgid "label_contactsheep_zoom"
-msgstr "Cuantos pixels al acercar cuando el cursor del ratón sobre la imagen"
+msgstr "¿Cuantos píxeles al acercar cuando el cursor del ratón sobre la imagen?"
 
 #. Default: "Name of Custom css file if you chose that above"
 #: ./__init__.py:101
